@@ -3,15 +3,24 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="A simple static HTML site template." />
+  <meta name="description" content="A clean, self-hosted static website served by Nginx." />
+  <meta name="theme-color" content="#f5f7fb" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0f172a" media="(prefers-color-scheme: dark)" />
   <title>My Site</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
-  <main class="container">
-    <h1>My Site</h1>
-    <p>Your static HTML site is running.</p>
-  </main>
+  <div class="page">
+    <main class="card">
+      <p class="badge">Online</p>
+      <h1>My Site</h1>
+      <p class="lead">Your static HTML site is running cleanly on Nginx.</p>
+    </main>
+    <footer class="footer">
+      <p>&copy; <span id="year">2026</span> My Site</p>
+    </footer>
+  </div>
   <script src="/app.js" defer></script>
 </body>
 </html>
