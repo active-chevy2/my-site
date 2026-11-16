@@ -1,8 +1,15 @@
 .git
 .gitignore
 .github
-README.md
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+*.md
+*.log
+LICENSE
 .env
+.env.*
 node_modules
 Dockerfile
-docker-compose.yml
+docker-compose*.yml
