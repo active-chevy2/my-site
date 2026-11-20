@@ -1,5 +1,9 @@
 # My Site
 
+<a href="https://www.aihonestybadge.com" target="_blank" rel="noopener"><img src="https://www.aihonestybadge.com/badges/ai-generated-small.svg" alt="AI Generated" height="20"></a>
+
+> This content has been generated with the assistance of AI. We kindly ask that anyone who feels uncomfortable with AI or its users to please refrain from engaging. Thank you for your understanding.
+
 A lightweight, hardened static HTML site template served by Nginx in Docker.
 
 ## Structure
